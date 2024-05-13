@@ -26,7 +26,7 @@ class _LoadingState extends State<Loading> {
           children: [
             SpinKitSpinningLines(
               color: Colors.blue,
-              size: 150.0,
+              size: 100.0,
             )
           ],
         ),

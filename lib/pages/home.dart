@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -62,7 +64,7 @@ class _HomeState extends State<Home> {
                   width: double.infinity,
                   height: 150,
                   decoration:
-                      const BoxDecoration(color: Color.fromARGB(111, 0, 0, 0)),
+                      const BoxDecoration(color: Color.fromARGB(100, 0, 0, 0)),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -77,7 +79,7 @@ class _HomeState extends State<Home> {
                       Text(
                         data["zone"],
                         style:
-                            const TextStyle(fontSize: 25, color: Colors.white),
+                            const TextStyle(fontSize: 20, color: Colors.white),
                       )
                     ],
                   ),
